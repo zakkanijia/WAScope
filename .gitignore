@@ -6,29 +6,29 @@
 **/*.json
 
 # Logs
-visualization/logs
-visualization/*.log
-visualization/npm-debug.log*
-visualization/yarn-debug.log*
-visualization/yarn-error.log*
-visualization/pnpm-debug.log*
-visualization/lerna-debug.log*
+web_front/logs
+web_front/*.log
+web_front/npm-debug.log*
+web_front/yarn-debug.log*
+web_front/yarn-error.log*
+web_front/pnpm-debug.log*
+web_front/lerna-debug.log*
 
-visualization/node_modules
+web_front/node_modules
 #dist
-visualization/dist-ssr
-visualization/*.local
+web_front/dist-ssr
+web_front/*.local
 
 # Editor directories and files
-visualization/.vscode/*
-visualization/!.vscode/extensions.json
-visualization/.idea
-visualization/.DS_Store
-visualization/*.suo
-visualization/*.ntvs*
-visualization/*.njsproj
-visualization/*.sln
-visualization/*.sw?
+web_front/.vscode/*
+web_front/!.vscode/extensions.json
+web_front/.idea
+web_front/.DS_Store
+web_front/*.suo
+web_front/*.ntvs*
+web_front/*.njsproj
+web_front/*.sln
+web_front/*.sw?
 
 #env
-visualization/*.development
+web_front/*.development
