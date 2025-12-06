@@ -4,3 +4,31 @@
 **/__pycache__
 /Visualization/dist
 **/*.json
+
+# Logs
+visualization/logs
+visualization/*.log
+visualization/npm-debug.log*
+visualization/yarn-debug.log*
+visualization/yarn-error.log*
+visualization/pnpm-debug.log*
+visualization/lerna-debug.log*
+
+visualization/node_modules
+#dist
+visualization/dist-ssr
+visualization/*.local
+
+# Editor directories and files
+visualization/.vscode/*
+visualization/!.vscode/extensions.json
+visualization/.idea
+visualization/.DS_Store
+visualization/*.suo
+visualization/*.ntvs*
+visualization/*.njsproj
+visualization/*.sln
+visualization/*.sw?
+
+#env
+visualization/*.development
