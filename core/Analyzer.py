@@ -40,7 +40,6 @@ def content_analysis(_data):
 
     return origin_params, sensitive_params
 
-# params analysis
 def params_analysis(_data, _is_pay_load=False):
     # pattern = Utility.pattern_handler(Config.params['sensitive'])
     pattern = Utility.pattern_handler(Config.privacy_tpl)
@@ -69,8 +68,6 @@ def params_analysis(_data, _is_pay_load=False):
     # sensitive_params=checker.check_empty_collection(sensitive_params)
     return origin_params, sensitive_params
 
-
-# path analysis
 def path_analysis(_data):
     pattern = Utility.pattern_handler(Config.params['sensitive'])
     _path = _data.split("?")[0] if Filter.check_question_mark(_data) else _data
